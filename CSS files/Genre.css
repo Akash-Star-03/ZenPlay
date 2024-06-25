@@ -33,12 +33,20 @@
 .movie-card {
     display: inline-block;
     margin-right: 15px;
-    width: 25%;
-    height: 35%;
-    
-    
+    width: 175px;
+    height: 250px;
       
 }
+@media only screen and (max-width:600px){
+  .movie-card {
+    display: inline-block;
+    margin-right: 15px;
+    width: 30%;
+    height: 35%;
+      
+}
+}
+
 .movie-card p{
     
   overflow:hidden;

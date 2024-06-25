@@ -37,4 +37,4 @@ searchInput.addEventListener('input', function() {
 
 // Load external movie cards when the page loads
 window.onload = loadExternalMovies;
-window.onload = loadExternalMovies1;
+
